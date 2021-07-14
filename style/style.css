@@ -146,4 +146,8 @@ style all high lights
 .highlits-left .title-left-header{
     font-size: 45px;
 }
-/* footer style */
+/* footer stylegig */
+.footer-part .logo img{
+    width: 470px;
+    height: 100px;
+}
