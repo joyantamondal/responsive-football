@@ -160,6 +160,22 @@ style scoree*************
 .live-score{
   margin-bottom: 70px;
 }
+/* contact********************** */
+.contact-section{
+  padding: 50px;
+  margin-bottom: 70px;
+}
+.contact-form input{
+  margin: 10px;
+}
+.contact-form textarea{
+  margin: 10px;
+}
+ul li{
+    list-style: none;
+
+}
+/* contact********************** */
 /**********
  Style Footer
  *********** */
