@@ -147,7 +147,17 @@ style all high lights
     font-size: 45px;
 }
 /* footer stylegig */
+.footer-part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 .footer-part .logo img{
-    width: 470px;
+    width: 483px;
     height: 100px;
+  
+    
+}
+.footer-part .logo{
+   
 }
