@@ -136,6 +136,33 @@ style all high lights
 .highlits-left .title-left-header {
   font-size: 45px;
 }
+/* ***********
+style scoree*************
+ */
+.score{
+    float: left;
+    padding:20px;
+    margin: 10px;
+    background-color: rgba(128, 0, 128, 0.337);
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+  
+}
+.score:hover{
+  background-color:rgba(0, 0, 255, 0.544);
+}
+.score-title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.live-score{
+  margin-bottom: 70px;
+}
+/**********
+ Style Footer
+ *********** */
 .footer-part {
   width: 400px;
 
@@ -215,6 +242,10 @@ style all high lights
     width: 280px;
     display: flex;
     flex-direction: column;
+  }
+  .score {
+   
+    float: none;
   }
   .footer-part .logo img {
     width: 200px;
