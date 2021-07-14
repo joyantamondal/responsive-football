@@ -24,7 +24,7 @@ header{
 }
 .container{
     
-    width: 1000px;
+    max-width: 870px;
     padding-top: 10px;
 
 }
@@ -95,6 +95,7 @@ color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
+    display: none;
  }
  .players img{ 
 width: 300px;
@@ -134,6 +135,9 @@ width: 300px;
 /* ********
 style all high lights
 ******* */
+.all-highlights{
+margin-bottom: 140px;
+}
 .highlits-left{
     width: 490px;
     color: black;
@@ -148,16 +152,74 @@ style all high lights
 }
 /* footer stylegig */
 .footer-part{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    width: 400px;
+    display: none;
+    
+    margin: 0 auto;
+padding-bottom: 10px;
+    
+}
+.footer-part .logo{
+margin-bottom: 10px;
 }
 .footer-part .logo img{
     width: 483px;
     height: 100px;
-  
     
 }
-.footer-part .logo{
-   
+.footer-part .font-icon{
+    text-align: center;
+    
+}
+.footer-part .icon{
+    text-align: center;
+    font-size: 17px;
+    background-color: #969bab33;
+    border-radius: 50%;
+    padding: 10px;
+  margin: 7px;
+  color: #969BAB;
+  transition: 1s;
+  margin-bottom: 15px;
+  
+     
+}
+.footer-part .icon:hover{
+ transform: rotate(360deg);
+ background-color: black;
+ color: white;
+}
+.copyright{
+    text-align: center;
+    font-size: 18px;
+}
+/*************
+ Media Query 
+  ***************/
+/* Mobile Device */
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+    }
+.top{
+    
+        display: flex;
+        flex-direction: column;
+    
+}
+.title-left-header {
+    width: 40%;
+    font-size: 40px;
+}
+.header-right {
+    margin-left: 0;
+    width: 420px;
+    padding-top: 50px;
+}
+
+.top .header-right img {
+    /* width: 420px; */
+    /* width: 350px; */
+    width: 80%;
+}
 }
